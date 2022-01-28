@@ -15,14 +15,16 @@
 }
 
 body {
-  margin: 50px;
+  margin: 20px;
 }
 
 h1 {
   color: black;
   text-align: center;
   font-size: 1.75em;
-  margin-bottom: 15px;
+  margin: 10px;
+  margin-bottom: 20px;
+
 }
 
 .row {
@@ -33,6 +35,7 @@ section {
   border: 1px solid black; /* is inherited by the section title: <h2> */
   background-color: rosybrown; /* is inherited by dummy text: <p> */
   position: relative;
+  margin: 10px;
 }
 
 h2 {

@@ -4,6 +4,4 @@ This repository hosts all of my solutions to the coding assignments for the [HTM
 
 #### Quick Links to Coding Assignments:
 
-1. #### [Module 2 - CSS](https://xtosis.github.io/JHU-FSC4/)
-
-
+1. #### [Module 2 - CSS](https://xtosis.github.io/JHU-FSC4/module-2/)

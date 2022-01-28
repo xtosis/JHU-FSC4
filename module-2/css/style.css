@@ -34,10 +34,10 @@ section {
 h2 {
   border: inherit; /* inherited from <section> */
   text-align: center;
+  align-items: ;
   font-size: 1.25em;
   width: 150px;
   height: 30px;
-  margin: 0px;
   position: absolute;
   top: -1px;
   right: -1px;

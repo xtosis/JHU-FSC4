@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   font-family: Helvetica;
-  /*temp*/
 }
 
 .temp-border-1 {
@@ -36,7 +35,7 @@ section {
 }
 
 h2 {
-  border: 1px solid black;
+  border: inherit;
   color: black;
   background-color: darkcyan;
   text-align: center;
@@ -52,7 +51,7 @@ h2 {
 
 p {
   color: black;
-  /*background-color: lightgreen;*/
+  background-color: inherit;
   width: auto;
   height: 150px;
   color: black;

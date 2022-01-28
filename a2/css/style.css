@@ -1,4 +1,6 @@
 /********** Base styles **********/
+
+/* CSS Resetting */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -23,23 +25,22 @@ h1 {
 }
 
 section {
-  border: 1px solid black; /* is inherited by the section title: <h2> */
-  background-color: #94817e; /* is inherited by dummy text: <p> */
+  border: 1px solid black; /* is inherited by <h2>: section title */
+  background-color: #94817e; /* is inherited by <p>: section dummy text */
   position: relative;
   margin: 10px;
 }
 
 h2 {
-  border: inherit;
+  border: inherit; /* inherited from <section> */
   text-align: center;
   font-size: 1.25em;
-
   width: 150px;
   height: 26px;
   margin: 0px;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: -1px;
+  right: -1px;
 }
 
 #menu-item-1 { color: black; background-color: #ff946a; }
@@ -48,7 +49,7 @@ h2 {
 
 p {
   color: black;
-  background-color: inherit;
+  background-color: inherit; /*inherited from <section>*/
   width: auto;
   height: 150px;
   color: black;

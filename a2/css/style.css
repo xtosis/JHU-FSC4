@@ -16,7 +16,6 @@ h1 {
   font-size: 1.75em;
   margin: 10px;
   margin-bottom: 20px;
-
 }
 
 .row {
@@ -25,26 +24,27 @@ h1 {
 
 section {
   border: 1px solid black; /* is inherited by the section title: <h2> */
-  background-color: rosybrown; /* is inherited by dummy text: <p> */
+  background-color: #94817e; /* is inherited by dummy text: <p> */
   position: relative;
   margin: 10px;
 }
 
 h2 {
   border: inherit;
-  color: black;
-  background-color: darkcyan;
   text-align: center;
   font-size: 1.25em;
 
   width: 150px;
   height: 26px;
   margin: 0px;
-  
   position: absolute;
   top: 0px;
   right: 0px;
 }
+
+#menu-item-1 { color: black; background-color: #ff946a; }
+#menu-item-2 { color: black; background-color: #ffa4a1; }
+#menu-item-3 { color: white; background-color: #63331f; }
 
 p {
   color: black;

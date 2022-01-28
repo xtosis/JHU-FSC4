@@ -6,14 +6,6 @@
   font-family: Helvetica;
 }
 
-.temp-border-1 {
-  border: 1px dashed lime;
-}
-
-.temp-border-2 {
-  border: 1px solid red;
-}
-
 body {
   margin: 20px;
 }

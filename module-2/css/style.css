@@ -5,7 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Arial;
 }
 
 body {
@@ -37,7 +37,7 @@ h2 {
   align-items: ;
   font-size: 1.25em;
   width: 150px;
-  height: 30px;
+  height: 26px;
   position: absolute;
   top: -1px;
   right: -1px;

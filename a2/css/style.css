@@ -11,18 +11,21 @@ body {
 }
 
 h1 {
-  border: 1px solid red;
   margin-bottom: 15px;
   text-align: center;
+  /*temp*/
+  border: 1px solid orange;
 }
 
 .row {
-  border: 1px solid yellow;
   width: 100%;
+  /*temp*/
+  border: 1px solid red;
 }
 
 section {
   border: 1px solid black;
+  background-color: gray;
   position: relative;
 }
 
@@ -40,13 +43,14 @@ h2 {
 }
 
 p {
-  background-color: #A52A2A;
   width: auto;
   height: 150px;
   margin-left: 15px;
-  color: white;
+  color: black;
   margin-top: 35px;
   margin-bottom: 15;
+  /*temp*/
+  border: 1px solid orange;
 
 }
 

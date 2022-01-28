@@ -21,6 +21,7 @@ body {
 h1 {
   color: black;
   text-align: center;
+  font-size: 1.75em;
   margin-bottom: 15px;
 }
 
@@ -39,6 +40,7 @@ h2 {
   color: black;
   background-color: darkcyan;
   text-align: center;
+  font-size: 1.25em;
 
   width: 150px;
   height: 30px;

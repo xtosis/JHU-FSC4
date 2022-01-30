@@ -1,15 +1,16 @@
-/*
-    Requirements:
-        desktop + tablet --> SAME
-        mobile
-        mobile with mobile downdown
+.navbar, section{
+  background-color: goldenrod;
+}
 
-    Bootstrap Class Notes:
-        md --> desktop
-        sm --> tablet
-        xs --> mobile
+#nav-dropdown-menu.in {
+  background-color: #ffeba1;
+}
 
-    8. Navbar: Create a navbar that scrolls away together with the page (the navbar should become invisible and is not fixed to the top when you scroll the page down). The navbar should have a company name (i.e., navbar-brand class) called "Food, LLC" that is aligned to the left side of the navbar. (See https://getbootstrap.com/docs/3.3/components/#navbar. Make the browser window narrower to see the mobile menu button appear in the first example shown at the provided link.)
+p {
+  padding: 20px;
+  padding-top: 0px;
+}
 
-    For desktop and tablet view, the navbar should not contain anything else. No other buttons should be visible. (Hint: use 'visible-xs' class.)
-*/
+h2 {
+  padding-top:  10px;
+}
